@@ -1,0 +1,13 @@
+<!--Running multiple classes together-->
+<suite name="Regression TestSuite">
+<test name="GroupsDemo">
+<groups>
+</groups>
+<run>
+<include name="house"></include>
+</run>
+<classes>
+<class name="testclasses.TestGrouping"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,9 @@
+<!--Running multiple classes together-->
+<suite name="Regression TestSuite">
+<test name="Regression">
+<classes>
+<class name="regression.TestRegression1"></class>
+<class name="regression.TestRegression2"></class>
+</classes>
+</test>
+</suite>

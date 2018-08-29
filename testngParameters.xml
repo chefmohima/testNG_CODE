@@ -1,0 +1,11 @@
+<!--Passing parameters to tests from xml-->
+<suite name="TestParametersSuite">
+<test name="Parameters">
+<parameter name="browser" value="firefox"></parameter>
+<parameter name="os" value="Win7"></parameter>
+<parameter name="response" value="500"></parameter>
+<classes>
+<class name="testclasses.TestParameters"></class>
+</classes>
+</test>
+</suite>
